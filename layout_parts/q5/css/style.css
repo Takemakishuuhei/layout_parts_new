@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5{
+.q5--box{
   position:relative;
   width: 500px;
   height: 500px;
@@ -80,7 +80,7 @@
   background-color: #DEAE70;
 }
 .q5__box.is-9{
-  position: absolute;
+  position: fixed;
   z-index: 10;
   top: 10px;
   left: 10px;

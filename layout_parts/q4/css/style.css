@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box{
-  margin-top: 20px;
-}
-.q4{
+.q4-contents-box{
   padding: 20px;
   box-sizing: border-box;
   background-color: #ECF1F2;
@@ -14,6 +11,9 @@
   margin-top: 20px;
   width: 100%;
   background-color: #ECF1F2;
+}
+.q4__contents:first-child{
+  margin: 0;
 }
 .q4__contents__cell{
   display: table-cell;
@@ -31,13 +31,13 @@
   background-color: #B6D8ED;
 }
 .q4__contents__cell.is-yellow{
-  width: 100px;
   background-color: #e5d32e;
 }
 .q4__contents__cell.is-red{
   background-color: #ec8f9a;
 }
 .q4__contents__cell.is-green{
+  width: 500px;
   background-color: #8fdcad;
 }
 /* 回答はここに書いてね */
